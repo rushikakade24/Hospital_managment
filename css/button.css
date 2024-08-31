@@ -1,0 +1,19 @@
+﻿body {
+}
+.colors {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    flex-direction:column-reverse;
+}
